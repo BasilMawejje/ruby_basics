@@ -1,0 +1,15 @@
+class Dog
+attr_accessor :name, :breed
+
+def initialize (name, breed)
+@name = name
+@breed = breed
+end
+
+def wag_tail
+puts "Tail wagging !!!!"
+end
+end
+
+dog = Dog.new 'blacky', 'German Shepherd'
+dog.wag_tail
